@@ -1,0 +1,10 @@
+
+    protected static function init()
+    {
+        self::afterInsert(function ($row) {
+            $pk = $row->getPk();
+            if(isset($row['{%order%}']) && $row['{%order%}'] == 0){
+                $row->where($pk, $row[$pk])->update(['{%order%}' => $row[$pk]]);
+            }
+        });
+    }

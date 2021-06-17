@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+namespace think;
+
+define('DS',DIRECTORY_SEPARATOR);
+define('ROOT_PATH', __DIR__.DS);
+define('APP_PATH', __DIR__ . '/application/');
+// 加载基础文件
+require __DIR__ . '/thinkphp/base.php';
+
+// 应用初始化
+Container::get('app')->path(__DIR__ . '/application/')->initialize();
+
+// 控制台初始化
+Console::init();

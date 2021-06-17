@@ -1,0 +1,57 @@
+{
+  "name": "karsonzhang/fastadmin",
+  "description": "the fastest admin framework",
+  "type": "project",
+  "keywords": [
+    "fastadmin",
+    "thinkphp"
+  ],
+  "homepage": "https://www.fastadmin.net/",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Karson",
+      "email": "karsonzhang@163.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "topthink/framework": "5.1.*",
+    "endroid/qr-code": "^3.9",
+    "topthink/think-captcha": "^2.0",
+    "mtdowling/cron-expression": "^1.2",
+    "phpmailer/phpmailer": "~6.1.6",
+    "overtrue/pinyin": "~3.0",
+    "phpoffice/phpspreadsheet": "^1.2",
+    "topthink/think-testing": "^2.0",
+    "nelexa/zip": "^3.3",
+    "symfony/var-exporter": "^4.4.13",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "ext-pdo": "*",
+    "ext-bcmath": "*",
+    "yidasu/fastadmin-addons": "1.0.*",
+    "overtrue/easy-sms": "^1.3",
+    "topthink/think-queue": "2.*",
+    "overtrue/wechat": "~5.0",
+    "firebase/php-jwt": "^5.2",
+    "griffinledingham/php-apple-signin": "^1.1"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "application"
+    }
+  },
+  "extra": {
+    "think-path": "thinkphp"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  }
+}

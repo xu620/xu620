@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'Account or password is incorrect'      => '账号或密码不正确',
+    'Account is locked'                     => '账号已经被锁定',
+    'You are not logged in'                 => '你当前还未登录',
+    'Account not exist'                     => '账号不存在',
+    'Account already exist'                 => '账号已经存在',
+    'Password is incorrect'                 => '密码不正确',
+    'Login failed'                          => '登录失败',
+    'Sign up successful'                    => '注册成功',
+    'Sign up failed'                        => '注册失败',
+    'Mobile_require'                        => '请输入手机号',
+    'Password_require'                      => '请输入密码',
+    'Repassword_require'                    => '请再次输入密码',
+    'Repassword_confirm'                    => '两次密码不一致',
+    'Captcha_require'                       => '请输入验证码',
+    'Old_captcha_require'                   => '请输入验证码',
+    'Logged in successful'                  => '登录成功',
+    'Logout successful'                     => '退出成功',
+    'Operation failed'                      => '操作失败',
+    'Invalid parameters'                    => '参数不正确',
+    'Reset password successful'             => '重置密码成功',
+    'Reset password failure'                => '重置密码失败',
+];

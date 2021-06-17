@@ -1,0 +1,12 @@
+{
+  "name": "模板",
+  "version": "0.0.0",
+  "description": "模板接口文档",
+  "title": "模板接口文档",
+  "url" : "http://xxxx.com",
+  "sampleUrl": "http://xxx.com",
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{$title}</title>
+    <script src="__CDN__/assets/js/flexible.js"></script>
+    <link rel="stylesheet" href="__CDN__/assets/css/article.css">
+</head>
+
+<body>
+<div class="container">
+    {if $show_title}
+    <h2 style="text-align: center">{$title}</h2>
+    {/if}
+    <div class="content">
+        {$content|raw}
+    </div>
+</div>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>

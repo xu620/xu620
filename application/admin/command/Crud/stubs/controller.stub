@@ -1,0 +1,35 @@
+<?php
+
+namespace {%controllerNamespace%};
+
+use app\common\controller\Backend;
+
+/**
+ * {%tableComment%}
+ *
+ * @icon {%iconName%}
+ */
+class {%controllerName%} extends Backend
+{
+    
+    /**
+     * {%modelName%}模型对象
+     * @var \{%modelNamespace%}\{%modelName%}
+     */
+    protected $model = null;
+
+    public function initialize()
+    {
+        parent::initialize();
+        $this->model = new \{%modelNamespace%}\{%modelName%};
+{%controllerAssignList%}
+    }
+
+    public function import()
+    {
+        parent::import();
+    }
+
+    
+{%controllerIndex%}
+}
