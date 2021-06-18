@@ -30,7 +30,7 @@
     "ext-curl": "*",
     "ext-pdo": "*",
     "ext-bcmath": "*",
-    "yidasu/fastadmin-addons": "1.0.*",
+    "MrXusu/fastadmin-addons": "1.0.*",
     "overtrue/easy-sms": "^1.3",
     "topthink/think-queue": "2.*",
     "overtrue/wechat": "~5.0",

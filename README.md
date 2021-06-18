@@ -28,3 +28,9 @@ location / {
         break;
     }
 }
+
+5. api文档生成
+
+apidoc -i application/api/apidoc/ -o public/apidoc/
+
+生成完 访问路径为 http://***.com/apidoc

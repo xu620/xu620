@@ -5,7 +5,7 @@
  * +----------------------------------------------------------------------
  * | Copyright (c) 2016-2020 All rights reserved.
  * +----------------------------------------------------------------------
- * | Author: Yida
+ * | Author: MrXu
  * +----------------------------------------------------------------------
  * | DateTime: 2021/01/18 1:29
  * +----------------------------------------------------------------------
@@ -37,6 +37,10 @@ Route::group('api', function() {
 
     })->prefix('api/IndexController/');
 
+
+    Route::group('redis',function (){
+       Route::get('redis_list','redisList');
+    })->prefix('api/RedisController/');;
 
     // 账号管理
     Route::group('account', function (){
